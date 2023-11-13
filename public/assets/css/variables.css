@@ -1,0 +1,8 @@
+:root {
+    --white: #fff;
+    --light: rgb(250, 247, 241);
+    --light-opac: rgba(250, 247, 241, .8);
+    --yellow: #ad971a;
+    --blue-primary: #252d3a;
+    --blue-secondary: #263544;
+}

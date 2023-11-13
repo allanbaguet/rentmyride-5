@@ -1,0 +1,134 @@
+@import url(variables.css);
+
+body {
+    font-family: 'Roboto Flex', sans-serif;
+    background-color: #faf7f1;
+}
+
+.sidebar {
+    background-color: var(--blue-secondary);
+    color: #fff;
+    width: 250px;
+    height: 100%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    overflow-y: auto;
+    -webkit-box-shadow: 3px 0px 11px 0px rgba(0, 0, 0, 0.48);
+    box-shadow: 3px 0px 11px 0px rgba(0, 0, 0, 0.48);
+}
+
+.sidebar h1 {
+    font-family: 'Great Vibes', sans-serif;
+    border-bottom: 4px solid var(--yellow);
+}
+
+.content h1 {
+    color: var(--blue-secondary);
+    font-weight: 100;
+}
+
+.sidebar header {
+    padding: 20px;
+    text-align: center;
+}
+
+.sidebar nav ul {
+    padding: 10px 0;
+}
+
+.sidebar i {
+    margin-right: 1em;
+}
+
+.sidebar nav a {
+    display: block;
+    padding: 10px 20px;
+    text-decoration: none;
+    color: #fff;
+    transition: background-color 0.3s;
+}
+
+.sidebar nav a:hover {
+    background-color: var(--blue-primary);
+    border-left: 4px solid var(--yellow);
+    color: #fff;
+    box-shadow: 2px 1px 5px 0px rgba(0, 0, 0, 0.5) inset;
+    -webkit-box-shadow: 1px 1px 5px 0px rgba(0, 0, 0, 0.5) inset;
+    -moz-box-shadow: 1px 1px 5px 0px rgba(0, 0, 0, 0.5) inset;
+}
+
+.content {
+    margin-left: 250px;
+}
+
+.btn-primary {
+    background-color: var(--blue-secondary);
+    border-color: var(--blue-secondary);
+}
+
+.btn-primary:hover {
+    background-color: var(--yellow);
+    border-color: var(--yellow);
+    -webkit-box-shadow: 3px 0px 11px 0px rgba(0, 0, 0, 0.48);
+    box-shadow: 3px 0px 11px 0px rgba(0, 0, 0, 0.48);
+}
+
+.content header {
+    padding: 20px 30px;
+}
+
+.content section {
+    margin: 5px 20px;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 3px;
+    -webkit-box-shadow: 1px 0px 8px 0px rgba(0, 0, 0, 0.15);
+    box-shadow: 1px 0px 8px 0px rgba(0, 0, 0, 0.15);
+}
+
+.call-action {
+    float: right;
+    margin-bottom: 2em;
+}
+
+.content i {
+    color: var(--blue-primary);
+    font-size: 1.2em;
+}
+
+.content i:hover {
+    color: var(--yellow);
+}
+
+
+table a {
+    color: var(--blue-primary);
+    text-decoration: none;
+}
+
+table a:hover {
+    color: var(--yellow);
+}
+
+table tr:hover {
+    background-color: var(--yellow);
+}
+
+table thead th {
+    background-color: var(--blue-secondary) !important;
+    color: var(--light-opac) !important;
+    font-weight: 100;
+}
+table thead th a {
+    color: var(--light-opac);
+    text-decoration: underline;
+}
+
+.thumb {
+    width: 100px;
+}
+
+.deleted {
+    text-decoration: line-through;
+}
